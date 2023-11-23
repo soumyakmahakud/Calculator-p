@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg,#0c0c0c, #303f54);
+}
+.calculator{
+    border: 1px solid rgb(95, 77, 77);
+    padding: 20px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0px 5px 20px black;
+}
+
+input{
+    width: 250px;
+   
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background: transparent;
+  
+    font-size: 50px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+input::placeholder{
+    color: rgb(249, 252, 254);
+}
+button{
+    border: none;
+ height: 50px;
+ width: 50px;
+margin: 8px;
+ border-radius: 50%;
+ background: transparent;
+ color: rgb(224, 230, 236);
+ font-size: 20px;
+ box-shadow: -8px -8px 10px rgb(15, 14, 14, 0.6);
+cursor: pointer;
+ 
+}
+.equalBtn{
+    background-color: rgb(154, 121, 78);
+}
+.operator{
+    color: green;
+}
+.btn{
+
+    color: #cec6ac;
+}
+
+#multiplication{
+    content: "\00D7";
+}
